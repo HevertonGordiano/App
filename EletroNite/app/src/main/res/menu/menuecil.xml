@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".menuecil">
+
+
+    <item
+        android:id="@+id/fformulas"
+        android:orderInCategory="100"
+        android:title="FORMULAS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rh2"
+        android:orderInCategory="100"
+        android:title="RH2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rh3"
+        android:orderInCategory="100"
+        android:title="RH3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/casob"
+        android:orderInCategory="100"
+        android:title="CAS OB"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/fornop"
+        android:orderInCategory="100"
+        android:title="FORNO PANELA"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/eestacaoArg"
+        android:orderInCategory="100"
+        android:title="ESTACAO ARGÔNIO"
+        app:showAsAction="never" />
+
+
+    /
+</menu>

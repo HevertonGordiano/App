@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eletro Nite</string>
+    <string name="rh2">RH2</string>
+    <string name="rh3">RH3</string>
+    <string name="casob">Cas OB</string>
+    <string name="fp">Forno Panela</string>
+    <string name="et">ESTAÇAO ARGONIO </string>
+    <string name="FRM">FORMULAS</string>
+    <string name="title_activity_rh3">rh3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Ha_campos_vazios">Ficou campo vazio</string>
+    <string name="CampoMaximo">Temperatura minima 1450 e maxima 1760 C </string>
+    <string name="CamposMaximos">milivoltagem deve ser menor que zero e maior que -300 C </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_formulas_en">FormulasEn</string>
+</resources>

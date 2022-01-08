@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    tools:context=".formulas">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="297dp"
+        android:layout_height="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eletronite" />
+
+    <LinearLayout
+        android:id="@+id/FP1"
+        android:layout_width="135dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_jan_rouded"
+        app:layout_constraintEnd_toStartOf="@+id/FP2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/Fp1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Forno Panela.1"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <EditText
+            android:id="@+id/edtFp1F1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F1"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="439.7351"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtFp1F2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="F2"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-490.719"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/edtFp1F3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:hint="F3"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-432.785"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtFp1F4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F4"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-15944.7"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FP2"
+        android:layout_width="135dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_jan_rouded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FP1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/RH"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="RH2/RH3"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <EditText
+            android:id="@+id/edtRhF1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F1"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-104"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtRhF2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F2"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="104"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/edtRhF3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F3"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="111.26"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtRhF4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F4"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-12079"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_button_rouded"
+        android:text="Salvar/sair"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb" />
+
+    <LinearLayout
+        android:id="@+id/cb"
+        android:layout_width="135dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_jan_rouded"
+        app:layout_constraintEnd_toStartOf="@+id/estArg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FP1"
+        tools:ignore="DuplicateIds,MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/CB"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cas Ob1/2"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <EditText
+            android:id="@+id/edtCbF1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F1"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-2.409472
+"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtCbF2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F2"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-432.785
+"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/edtCbF3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F3"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="11.344657"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtCbF4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F4"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-16732.968"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/estArg"
+        android:layout_width="135dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_jan_rouded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cb"
+        app:layout_constraintTop_toBottomOf="@+id/FP2"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/EstArg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Estaçao de Argonio"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <EditText
+            android:id="@+id/edtEtF1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F1"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="439.7351"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtEtF2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F2"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-490.719"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/edtEtF3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F3"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-432.785"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtEtF4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="F3"
+            android:inputType="numberSigned|number|numberDecimal"
+            android:text="-15944.7"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
